@@ -1,4 +1,4 @@
-import { BigintIsh, ChainId, Price, sqrt, Token, TokenAmount } from '@uniswap/sdk-core'
+import { BigintIsh, ChainId, Price, sqrt, Token, TokenAmount } from '@afroswap/sdk-core'
 import invariant from 'tiny-invariant'
 import JSBI from 'jsbi'
 import { pack, keccak256 } from '@ethersproject/solidity'
@@ -40,7 +40,7 @@ export class Pair {
       Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token),
       18,
       'UNI-V2',
-      'Uniswap V2'
+      'Afroswap V2'
     )
     this.tokenAmounts = tokenAmounts as [TokenAmount, TokenAmount]
   }

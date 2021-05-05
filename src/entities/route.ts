@@ -1,4 +1,4 @@
-import { ChainId, Currency, ETHER, Price, Token, WETH9 } from '@uniswap/sdk-core'
+import { ChainId, Currency, ETHER, Price, Token, WETH9 } from '@afroswap/sdk-core'
 import invariant from 'tiny-invariant'
 
 import { Pair } from './pair'
